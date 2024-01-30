@@ -18,6 +18,25 @@
             color: blue;
             background-color: antiquewhite;
         }
+        
+        table,
+        th,
+        td {
+            border: 1px solid white;
+            border-collapse: collapse;
+            border: 1px solid black;
+            border-radius: 10px;
+            border-style: dotted;
+        }
+        
+        th,
+        td {
+            background-color: #96D4D4;
+        }
+        
+        caption {
+            color: red
+        }
     </style>
 </head>
 <header></header>
@@ -36,8 +55,29 @@
     <article>
         <p>This is an article.</p>
     </article>
-    <area>
 
+    <h2>
+        <table border=2>
+            <caption> list of names</caption>
+
+            <table>
+                <tr>
+                    <th>Company</th>
+                    <th>Contact</th>
+                    <th>Country</th>
+                </tr>
+                <tr>
+                    <td>Alfreds Futterkiste</td>
+                    <td>Maria Anders</td>
+                    <td>Germany</td>
+                </tr>
+                <tr>
+                    <td>Centro comercial Moctezuma</td>
+                    <td>Francisco Chang</td>
+                    <td>Mexico</td>
+                </tr>
+            </table>
+    </h2>
     <h2>
         <div id="sampleid">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint aperiam reiciendis laboriosam delectus ea, sunt inventore nisi maiores dolores nesciunt repudiandae odit veritatis quod expedita adipisci eveniet accusamus in quas?
